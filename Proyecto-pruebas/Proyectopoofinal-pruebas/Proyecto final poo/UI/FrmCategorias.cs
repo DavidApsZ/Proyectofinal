@@ -1,20 +1,29 @@
 ﻿using MySql.Data.MySqlClient;
 using Proyecto_final_poo.Data;
+using Proyecto_final_poo.Domain;
 using System.Data;
+using System.Windows.Forms;
 
 namespace Proyecto_final_poo.UI
 {
     public class FrmCategorias : Form
     {
+        // tabla para mostrar categorias
         private readonly DataGridView dgv = new();
+        // caja para escribir el nombre de la categoria
         private readonly TextBox txtNombre = new();
+        // caja para escribir la descripcion de la categoria
         private readonly TextBox txtDescripcion = new();
+        // boton para agregar categoria
         private readonly Button btnAgregar = new();
+        // boton para editar categoria seleccionada
         private readonly Button btnEditar = new();
+        // boton para eliminar categoria seleccionada
         private readonly Button btnEliminar = new();
 
         public FrmCategorias()
         {
+            // configuracion basica del formulario
             Text = "Categorías";
             Width = 560; Height = 420;
             StartPosition = FormStartPosition.CenterParent;
@@ -23,34 +32,42 @@ namespace Proyecto_final_poo.UI
 
             SuspendLayout();
 
+            // configuracion de la tabla de datos
             dgv.Dock = DockStyle.Top; dgv.Height = 240; dgv.ReadOnly = true;
             dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgv.MultiSelect = false;
             dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
+            // etiqueta y caja para nombre de categoria
             var lblNombre = new Label { Text = "Nombre", Left = 20, Top = 255, AutoSize = true };
             txtNombre.Left = 90; txtNombre.Top = 252; txtNombre.Width = 420;
 
+            // etiqueta y caja para descripcion de categoria
             var lblDesc = new Label { Text = "Descripción", Left = 20, Top = 285, AutoSize = true };
             txtDescripcion.Left = 90; txtDescripcion.Top = 282; txtDescripcion.Width = 420;
 
+            // configuracion del boton agregar
             btnAgregar.Text = "Agregar";
             btnAgregar.Left = 90; btnAgregar.Top = 320; btnAgregar.Width = 100;
             btnAgregar.Click += BtnAgregar_Click;
 
+            // configuracion del boton editar
             btnEditar.Text = "Editar";
             btnEditar.Left = 200; btnEditar.Top = 320; btnEditar.Width = 100;
             btnEditar.Click += BtnEditar_Click;
 
+            // configuracion del boton eliminar
             btnEliminar.Text = "Eliminar";
             btnEliminar.Left = 310; btnEliminar.Top = 320; btnEliminar.Width = 100;
             btnEliminar.Click += BtnEliminar_Click;
 
+            // agrega todos los controles al formulario
             Controls.AddRange(new Control[] {
                 dgv, lblNombre, txtNombre, lblDesc, txtDescripcion,
                 btnAgregar, btnEditar, btnEliminar
             });
 
+            // al cambiar la seleccion en la tabla, actualiza los campos de texto
             dgv.SelectionChanged += (_, __) =>
             {
                 if (dgv.CurrentRow?.DataBoundItem is DataRowView r)
@@ -60,10 +77,12 @@ namespace Proyecto_final_poo.UI
                 }
             };
 
+            // al cargar el formulario, carga las categorias en la tabla
             Load += (_, __) => Cargar();
             ResumeLayout(false);
         }
 
+        // carga las categorias desde la base de datos y las muestra en la tabla
         private void Cargar()
         {
             using var c = Db.Con(); c.Open();
@@ -73,106 +92,96 @@ namespace Proyecto_final_poo.UI
             dgv.DataSource = t;
         }
 
-        private int? CategoriaSeleccionadaId()
+        // obtiene la categoria seleccionada en la tabla
+        private Categoria? CategoriaSeleccionada()
         {
             if (dgv.CurrentRow?.DataBoundItem is not DataRowView row) return null;
-            return Convert.ToInt32(row["Id"]);
+            return new Categoria
+            {
+                Id = Convert.ToInt32(row["Id"]),
+                Nombre = row["Nombre"]?.ToString() ?? "",
+                Descripcion = row["Descripcion"]?.ToString()
+            };
         }
 
+        // evento para agregar una nueva categoria
         private void BtnAgregar_Click(object? sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             { MessageBox.Show("Nombre requerido."); return; }
+
+            var cat = new Categoria
+            {
+                Nombre = txtNombre.Text.Trim(),
+                Descripcion = string.IsNullOrWhiteSpace(txtDescripcion.Text) ? null : txtDescripcion.Text.Trim()
+            };
 
             try
             {
                 using var c = Db.Con(); c.Open();
                 using var cmd = new MySqlCommand(
                     "INSERT INTO Categorias(Nombre, Descripcion) VALUES(@n, @d);", c);
-                cmd.Parameters.AddWithValue("@n", txtNombre.Text.Trim());
-                cmd.Parameters.AddWithValue("@d", string.IsNullOrWhiteSpace(txtDescripcion.Text)
-                                                ? (object)DBNull.Value : txtDescripcion.Text.Trim());
+                cmd.Parameters.AddWithValue("@n", cat.Nombre);
+                cmd.Parameters.AddWithValue("@d", (object?)cat.Descripcion ?? DBNull.Value);
                 cmd.ExecuteNonQuery();
-
-                txtNombre.Clear(); txtDescripcion.Clear();
                 Cargar();
             }
-            catch (MySqlException ex) when (ex.Number == 1062)
-            {
-                MessageBox.Show("Ya existe una categoría con ese nombre.");
-            }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 MessageBox.Show("Error al agregar: " + ex.Message);
             }
         }
 
+        // evento para editar la categoria seleccionada
         private void BtnEditar_Click(object? sender, EventArgs e)
         {
-            var id = CategoriaSeleccionadaId();
-            if (id == null) { MessageBox.Show("Selecciona una categoría."); return; }
+            var cat = CategoriaSeleccionada();
+            if (cat == null)
+            { MessageBox.Show("Selecciona una categoría."); return; }
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             { MessageBox.Show("Nombre requerido."); return; }
+
+            cat.Nombre = txtNombre.Text.Trim();
+            cat.Descripcion = string.IsNullOrWhiteSpace(txtDescripcion.Text) ? null : txtDescripcion.Text.Trim();
 
             try
             {
                 using var c = Db.Con(); c.Open();
                 using var cmd = new MySqlCommand(
-                    @"UPDATE Categorias
-                      SET Nombre = @n, Descripcion = @d
-                      WHERE Id = @id;", c);
-                cmd.Parameters.AddWithValue("@n", txtNombre.Text.Trim());
-                cmd.Parameters.AddWithValue("@d", string.IsNullOrWhiteSpace(txtDescripcion.Text)
-                                                ? (object)DBNull.Value : txtDescripcion.Text.Trim());
-                cmd.Parameters.AddWithValue("@id", id.Value);
+                    "UPDATE Categorias SET Nombre=@n, Descripcion=@d WHERE Id=@id;", c);
+                cmd.Parameters.AddWithValue("@n", cat.Nombre);
+                cmd.Parameters.AddWithValue("@d", (object?)cat.Descripcion ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@id", cat.Id);
                 cmd.ExecuteNonQuery();
-
                 Cargar();
-                MessageBox.Show("Categoría actualizada.");
             }
-            catch (MySqlException ex) when (ex.Number == 1062)
-            {
-                MessageBox.Show("Ya existe una categoría con ese nombre.");
-            }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 MessageBox.Show("Error al editar: " + ex.Message);
             }
         }
 
+        // evento para eliminar la categoria seleccionada
         private void BtnEliminar_Click(object? sender, EventArgs e)
         {
-            var id = CategoriaSeleccionadaId();
-            if (id == null) { MessageBox.Show("Selecciona una categoría."); return; }
+            var cat = CategoriaSeleccionada();
+            if (cat == null)
+            { MessageBox.Show("Selecciona una categoría."); return; }
 
-            if (MessageBox.Show("¿Eliminar la categoría seleccionada?",
-                "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
-
-            try
+            if (MessageBox.Show("¿Seguro que deseas eliminar esta categoría?", "Confirmar", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                using var c = Db.Con(); c.Open();
-
-                using (var chk = new MySqlCommand("SELECT COUNT(*) FROM Productos WHERE CategoriaId=@id;", c))
+                try
                 {
-                    chk.Parameters.AddWithValue("@id", id.Value);
-                    var usados = Convert.ToInt32(chk.ExecuteScalar());
-                    if (usados > 0)
-                    {
-                        MessageBox.Show("No se puede eliminar: hay productos con esta categoría.");
-                        return;
-                    }
+                    using var c = Db.Con(); c.Open();
+                    using var cmd = new MySqlCommand("DELETE FROM Categorias WHERE Id=@id;", c);
+                    cmd.Parameters.AddWithValue("@id", cat.Id);
+                    cmd.ExecuteNonQuery();
+                    Cargar();
                 }
-
-                using var cmd = new MySqlCommand("DELETE FROM Categorias WHERE Id=@id;", c);
-                cmd.Parameters.AddWithValue("@id", id.Value);
-                cmd.ExecuteNonQuery();
-
-                Cargar();
-                MessageBox.Show("Categoría eliminada.");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al eliminar: " + ex.Message);
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Error al eliminar: " + ex.Message);
+                }
             }
         }
     }

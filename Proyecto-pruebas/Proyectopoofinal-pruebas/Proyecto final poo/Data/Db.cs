@@ -4,14 +4,18 @@ namespace Proyecto_final_poo.Data
 {
     public static class Db
     {
+        // cadena de conexion para la base de datos proyectopoo en mysql
         private const string ConnStr = "server=localhost;port=3306;database=proyectopoo;user=root;password=hola12345;";
 
+        // metodo que devuelve la conexion a la base de datos
         public static MySqlConnection Con() => new MySqlConnection(ConnStr);
 
+        // metodo para inicializar la base de datos y crear las tablas si no existen
         public static void Init()
         {
             try
             {
+                // crea la base de datos si no existe, usando conexion sin base de datos seleccionada
                 using (var cNoDb = new MySqlConnection("server=localhost;port=3306;user=root;password=hola12345;"))
                 {
                     cNoDb.Open();
@@ -20,9 +24,11 @@ namespace Proyecto_final_poo.Data
                     cmdDb.ExecuteNonQuery();
                 }
 
+                // abre la conexion a la base de datos ya creada
                 using var c = Con();
                 c.Open();
 
+                // consulta sql para crear todas las tablas necesarias si no existen
                 string sql = @"
 CREATE TABLE IF NOT EXISTS Categorias(
   Id INT AUTO_INCREMENT PRIMARY KEY,
@@ -92,18 +98,21 @@ CREATE TABLE IF NOT EXISTS Usuarios(
   Nombre VARCHAR(120) NULL,
   IsAdmin BIT NOT NULL DEFAULT 0
 );";
+                // ejecuta el comando para crear las tablas
                 using var cmd = new MySqlCommand(sql, c);
                 cmd.ExecuteNonQuery();
             }
             catch (MySqlException ex)
             {
-                System.Windows.Forms.MessageBox.Show($"Error al inicializar la base de datos: {ex.Message}", "Error de BD", 
+                // muestra mensaje si hay error de base de datos y relanza la excepcion
+                System.Windows.Forms.MessageBox.Show($"Error al inicializar la base de datos: {ex.Message}", "Error de BD",
                     System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 throw;
             }
             catch (Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show($"Error inesperado al inicializar: {ex.Message}", "Error", 
+                // muestra mensaje si hay error inesperado y relanza la excepcion
+                System.Windows.Forms.MessageBox.Show($"Error inesperado al inicializar: {ex.Message}", "Error",
                     System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 throw;
             }

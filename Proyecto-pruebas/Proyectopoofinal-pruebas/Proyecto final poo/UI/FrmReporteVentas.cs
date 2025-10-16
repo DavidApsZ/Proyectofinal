@@ -1,50 +1,62 @@
 ﻿using MySql.Data.MySqlClient;
 using Proyecto_final_poo.Data;
-using System;
 using System.Data;
-using System.Windows.Forms;
 
 namespace Proyecto_final_poo.UI
 {
     public class FrmReporteVentas : Form
     {
+        // selector de fecha desde
         private readonly DateTimePicker dpDesde = new();
+        // selector de fecha hasta
         private readonly DateTimePicker dpHasta = new();
+        // boton para buscar ventas en el rango
         private readonly Button btnBuscar = new();
+        // tabla para mostrar las ventas encontradas
         private readonly DataGridView dgvVentas = new();
+        // tabla para mostrar el detalle de la venta seleccionada
         private readonly DataGridView dgvDetalle = new();
+        // etiqueta para mostrar el total vendido y total de productos
         private readonly Label lblResumen = new();
 
         public FrmReporteVentas()
         {
+            // configuracion basica del formulario
             Text = "Reporte de Ventas";
             Width = 950; Height = 600;
             StartPosition = FormStartPosition.CenterParent; FormBorderStyle = FormBorderStyle.FixedDialog;
 
+            // campos para elegir el rango de fechas
             var lblD = new Label { Text = "Desde:", Left = 20, Top = 18, AutoSize = true };
             dpDesde.Left = 70; dpDesde.Top = 14; dpDesde.Width = 200; dpDesde.Value = DateTime.Today.AddDays(-7);
 
             var lblH = new Label { Text = "Hasta:", Left = 290, Top = 18, AutoSize = true };
             dpHasta.Left = 340; dpHasta.Top = 14; dpHasta.Width = 200; dpHasta.Value = DateTime.Today;
 
+            // boton para buscar
             btnBuscar.Text = "Buscar"; btnBuscar.Left = 560; btnBuscar.Top = 12; btnBuscar.Width = 100;
             btnBuscar.Click += (_, __) => Buscar();
 
+            // tabla de ventas
             dgvVentas.Left = 20; dgvVentas.Top = 50; dgvVentas.Width = 900; dgvVentas.Height = 200;
             dgvVentas.ReadOnly = true; dgvVentas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvVentas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvVentas.MultiSelect = false;
 
+            // tabla de detalle de venta
             dgvDetalle.Left = 20; dgvDetalle.Top = 270; dgvDetalle.Width = 900; dgvDetalle.Height = 200;
             dgvDetalle.ReadOnly = true; dgvDetalle.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-            lblResumen.Left = 20; lblResumen.Top = 480; lblResumen.Width = 900; lblResumen.Text = "Total vendido: $0.00 | Total productos vendidos: 0";
+            // etiqueta resumen de totales
+            lblResumen.Left = 20; lblResumen.Top = 480; lblResumen.Width = 900; lblResumen.Text = "total vendido: $0.00 | total productos vendidos: 0";
 
             Controls.AddRange(new Control[] { lblD, dpDesde, lblH, dpHasta, btnBuscar, dgvVentas, dgvDetalle, lblResumen });
 
+            // al cambiar la seleccion de venta, muestra el detalle
             dgvVentas.SelectionChanged += (_, __) => MostrarDetalle();
         }
 
+        // busca las ventas entre las fechas seleccionadas y muestra totales
         private void Buscar()
         {
             using var c = Db.Con(); c.Open();
@@ -94,10 +106,11 @@ namespace Proyecto_final_poo.UI
             }
             rd.Close();
 
-            lblResumen.Text = $"Total vendido: ${totalDinero:0.00} | Total productos vendidos: {totalProductos}";
+            lblResumen.Text = $"total vendido: ${totalDinero:0.00} | total productos vendidos: {totalProductos}";
             MostrarDetalle();
         }
 
+        // muestra el detalle de la venta seleccionada
         private void MostrarDetalle()
         {
             if (dgvVentas.CurrentRow == null)
@@ -110,18 +123,21 @@ namespace Proyecto_final_poo.UI
             using var c = Db.Con(); c.Open();
 
             decimal totalVenta = 0, totalSinComision = 0, comisionPorc = 0;
+            // obtiene el total de la venta
             using (var cmd = new MySqlCommand("SELECT Total FROM Ventas WHERE Id=@id;", c))
             {
                 cmd.Parameters.AddWithValue("@id", ventaId);
                 var val = cmd.ExecuteScalar();
                 totalVenta = (val != null && val != DBNull.Value) ? Convert.ToDecimal(val) : 0;
             }
+            // obtiene el total sin comision
             using (var cmd = new MySqlCommand("SELECT SUM(PrecioUnitario * Cantidad) FROM Detalles WHERE VentaId=@id;", c))
             {
                 cmd.Parameters.AddWithValue("@id", ventaId);
                 var val = cmd.ExecuteScalar();
                 totalSinComision = (val != null && val != DBNull.Value) ? Convert.ToDecimal(val) : totalVenta;
             }
+            // obtiene el porcentaje de comision
             using (var cmdCfg = new MySqlCommand("SELECT ValorDecimal FROM Configuracion WHERE Clave='ComisionTarjeta';", c))
             {
                 var val = cmdCfg.ExecuteScalar();
@@ -141,6 +157,7 @@ namespace Proyecto_final_poo.UI
             var tDetalle = new DataTable();
             daDetalle.Fill(tDetalle);
 
+            // ajusta los precios y subtotales si la venta tuvo comision
             if (comision > 0.01m)
             {
                 foreach (DataRow row in tDetalle.Rows)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sique\\Pictures\\PROYECTO PRUEBA\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj": {}
+    "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sique\\Pictures\\PROYECTO PRUEBA\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj": {
+    "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sique\\Pictures\\PROYECTO PRUEBA\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj",
+        "projectUniqueName": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj",
         "projectName": "Proyecto final poo",
-        "projectPath": "C:\\Users\\sique\\Pictures\\PROYECTO PRUEBA\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj",
+        "projectPath": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj",
         "packagesPath": "C:\\Users\\sique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sique\\Pictures\\PROYECTO PRUEBA\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\obj\\",
+        "outputPath": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -2,9 +2,13 @@
 {
     public class Categoria : IIdentificable, INombrable
     {
+        // identificador unico de la categoria
         public int Id { get; set; }
-        public string Nombre { get; set; } = "";
-        public string? Descripcion { get; set; }
 
-    }    
+        // nombre de la categoria
+        public string Nombre { get; set; } = "";
+
+        // descripcion opcional de la categoria
+        public string? Descripcion { get; set; }
+    }
 }

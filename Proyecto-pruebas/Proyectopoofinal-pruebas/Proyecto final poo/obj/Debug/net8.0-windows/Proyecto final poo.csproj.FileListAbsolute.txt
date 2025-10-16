@@ -686,3 +686,141 @@ C:\Users\sique\Pictures\PROYECTO PRUEBA\Proyecto-pruebas\Proyectopoofinal-prueba
 C:\Users\sique\Pictures\PROYECTO PRUEBA\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.genruntimeconfig.cache
 C:\Users\sique\Pictures\PROYECTO PRUEBA\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\ref\Proyecto final poo.dll
 C:\Users\sique\Pictures\PROYECTO PRUEBA\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.sourcelink.json
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Proyecto final poo.exe
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Proyecto final poo.deps.json
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Proyecto final poo.runtimeconfig.json
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Proyecto final poo.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Proyecto final poo.pdb
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.csproj.AssemblyReference.cache
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmClientes.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmConfiguracion.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmLogin.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmMenu.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmProductos.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmReporteVentas.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto_final_poo.UI.FrmVenta.resources
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.csproj.GenerateResource.cache
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.AssemblyInfoInputs.cache
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.AssemblyInfo.cs
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.csproj.CoreCompileInputs.cache
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.sourcelink.json
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto.6FFF7CAC.Up2Date
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\refint\Proyecto final poo.dll
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.pdb
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\Proyecto final poo.genruntimeconfig.cache
+C:\Users\sique\Pictures\PROYECTO FINAL\Proyecto-pruebas\Proyectopoofinal-pruebas\Proyecto final poo\obj\Debug\net8.0-windows\ref\Proyecto final poo.dll
