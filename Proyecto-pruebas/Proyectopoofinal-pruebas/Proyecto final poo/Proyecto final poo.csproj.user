@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="UI\FrmCambiarMiPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmHistorialCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmRemoverStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FrmVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
