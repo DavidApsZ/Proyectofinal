@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using Proyecto_final_poo.Data;
+using Proyecto_final_poo.Domain;
 using System.Data;
 
 namespace Proyecto_final_poo.UI
@@ -39,7 +40,6 @@ namespace Proyecto_final_poo.UI
             StartPosition = FormStartPosition.CenterParent;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
-
             SuspendLayout();
 
             // etiqueta y caja para busqueda
@@ -120,21 +120,51 @@ namespace Proyecto_final_poo.UI
             });
 
             // cuando cambia la seleccion en la tabla, copia los datos a los campos
-            dgv.SelectionChanged += (_, __) =>
-            {
-                if (dgv.CurrentRow?.DataBoundItem is DataRowView r)
-                {
-                    txtNombre.Text = r["Nombre"]?.ToString();
-                    numPrecio.Value = Convert.ToDecimal(r["Precio"]);
-                    numStock.Value = Convert.ToDecimal(r["Stock"]);
-                    cboCategoria.SelectedValue = Convert.ToInt32(r["CategoriaId"]);
-                }
-            };
+            dgv.SelectionChanged += (_, __) => CopiarProductoSeleccionado();
 
             // al cargar el formulario, carga las categorias y productos
             Load += (_, __) => { CargarCategorias(); Cargar(); };
 
             ResumeLayout(false);
+        }
+
+        // obtiene producto seleccionado de la tabla
+        private Producto? ProductoSeleccionado()
+        {
+            if (dgv.CurrentRow?.DataBoundItem is not DataRowView row) return null;
+            return new Producto
+            {
+                Id = Convert.ToInt32(row["Id"]),
+                Nombre = row["Nombre"]?.ToString() ?? "",
+                Precio = Convert.ToDecimal(row["Precio"]),
+                Stock = Convert.ToInt32(row["Stock"]),
+                CategoriaId = Convert.ToInt32(row["CategoriaId"])
+            };
+        }
+
+        // obtiene datos de los controles como Producto
+        private Producto ProductoDeControles()
+        {
+            return new Producto
+            {
+                Nombre = txtNombre.Text.Trim(),
+                Precio = numPrecio.Value,
+                Stock = (int)numStock.Value,
+                CategoriaId = Convert.ToInt32(cboCategoria.SelectedValue)
+            };
+        }
+
+        // copia datos del producto seleccionado a los controles
+        private void CopiarProductoSeleccionado()
+        {
+            var p = ProductoSeleccionado();
+            if (p != null)
+            {
+                txtNombre.Text = p.Nombre;
+                numPrecio.Value = p.Precio;
+                numStock.Value = p.Stock;
+                cboCategoria.SelectedValue = p.CategoriaId;
+            }
         }
 
         // carga las categorias en el combo
@@ -157,7 +187,7 @@ namespace Proyecto_final_poo.UI
                          p.CategoriaId, c.Nombre AS Categoria
                   FROM Productos p
                   JOIN Categorias c ON c.Id = p.CategoriaId
-                  WHERE p.Activo = 1  -- Solo productos activos
+                  WHERE p.Activo = 1
                   ORDER BY p.Id DESC;", c);
             var table = new DataTable(); da.Fill(table);
             dgv.DataSource = table;
@@ -166,13 +196,6 @@ namespace Proyecto_final_poo.UI
                 dgv.Columns["Precio"].DefaultCellStyle.Format = "0.00";
         }
 
-        // obtiene el id del producto seleccionado en la tabla
-        private int? ProductoSeleccionadoId()
-        {
-            if (dgv.CurrentRow == null) return null;
-            if (dgv.CurrentRow.DataBoundItem is not DataRowView row) return null;
-            return Convert.ToInt32(row["Id"]);
-        }
         // filtra productos por nombre
         private void FiltrarProductos()
         {
@@ -186,21 +209,22 @@ namespace Proyecto_final_poo.UI
                     dt.DefaultView.RowFilter = $"Nombre LIKE '%{filtro}%'";
             }
         }
+
         // agrega un producto nuevo
         private void BtnAgregar_Click(object? sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            var p = ProductoDeControles();
+            if (string.IsNullOrWhiteSpace(p.Nombre))
             { MessageBox.Show("nombre requerido"); return; }
-
             try
             {
                 using var c = Db.Con(); c.Open();
                 using var cmd = new MySqlCommand(
                     "INSERT INTO Productos(Nombre,Precio,Stock,CategoriaId,Activo) VALUES(@n,@p,@s,@cat,1);", c);
-                cmd.Parameters.AddWithValue("@n", txtNombre.Text.Trim());
-                cmd.Parameters.AddWithValue("@p", numPrecio.Value);
-                cmd.Parameters.AddWithValue("@s", 1); // siempre 1 producto de stock al agregar
-                cmd.Parameters.AddWithValue("@cat", Convert.ToInt32(cboCategoria.SelectedValue));
+                cmd.Parameters.AddWithValue("@n", p.Nombre);
+                cmd.Parameters.AddWithValue("@p", p.Precio);
+                cmd.Parameters.AddWithValue("@s", 1); // siempre 1 al agregar
+                cmd.Parameters.AddWithValue("@cat", p.CategoriaId);
                 cmd.ExecuteNonQuery();
 
                 txtNombre.Clear(); numPrecio.Value = 0; numStock.Value = 0;
@@ -212,22 +236,22 @@ namespace Proyecto_final_poo.UI
         // edita el producto seleccionado
         private void BtnEditar_Click(object? sender, EventArgs e)
         {
-            var id = ProductoSeleccionadoId();
-            if (id == null) { MessageBox.Show("selecciona un producto."); return; }
-            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            var pSel = ProductoSeleccionado();
+            if (pSel == null) { MessageBox.Show("selecciona un producto."); return; }
+            var p = ProductoDeControles();
+            if (string.IsNullOrWhiteSpace(p.Nombre))
             { MessageBox.Show("nombre requerido"); return; }
-
             try
             {
                 using var c = Db.Con(); c.Open();
                 using var cmd = new MySqlCommand(
                     @"UPDATE Productos
                       SET Nombre=@n, Precio=@p, CategoriaId=@cat
-                      WHERE Id=@id;", c); // stock no editable aqui
-                cmd.Parameters.AddWithValue("@n", txtNombre.Text.Trim());
-                cmd.Parameters.AddWithValue("@p", numPrecio.Value);
-                cmd.Parameters.AddWithValue("@cat", Convert.ToInt32(cboCategoria.SelectedValue));
-                cmd.Parameters.AddWithValue("@id", id.Value);
+                      WHERE Id=@id;", c);
+                cmd.Parameters.AddWithValue("@n", p.Nombre);
+                cmd.Parameters.AddWithValue("@p", p.Precio);
+                cmd.Parameters.AddWithValue("@cat", p.CategoriaId);
+                cmd.Parameters.AddWithValue("@id", pSel.Id);
                 cmd.ExecuteNonQuery();
 
                 Cargar();
@@ -239,14 +263,13 @@ namespace Proyecto_final_poo.UI
         // elimina (inactiva) el producto seleccionado
         private void BtnEliminar_Click(object? sender, EventArgs e)
         {
-            var id = ProductoSeleccionadoId();
-            if (id == null) { MessageBox.Show("selecciona un producto."); return; }
-
+            var p = ProductoSeleccionado();
+            if (p == null) { MessageBox.Show("selecciona un producto."); return; }
             try
             {
                 using var c = Db.Con(); c.Open();
                 using var cmd = new MySqlCommand("UPDATE Productos SET Activo = 0 WHERE Id=@id;", c);
-                cmd.Parameters.AddWithValue("@id", id.Value);
+                cmd.Parameters.AddWithValue("@id", p.Id);
                 cmd.ExecuteNonQuery();
 
                 Cargar();
@@ -254,16 +277,16 @@ namespace Proyecto_final_poo.UI
             }
             catch (Exception ex) { MessageBox.Show("error al inactivar: " + ex.Message); }
         }
+
         // añade stock al producto seleccionado
         private void BtnAñadirStock_Click(object? sender, EventArgs e)
         {
-            var id = ProductoSeleccionadoId();
-            if (id == null)
+            var p = ProductoSeleccionado();
+            if (p == null)
             {
                 MessageBox.Show("selecciona un producto.");
                 return;
             }
-
             var input = Microsoft.VisualBasic.Interaction.InputBox("Cantidad a añadir:", "Añadir Stock", "1");
             if (int.TryParse(input, out int cantidad) && cantidad > 0)
             {
@@ -274,12 +297,12 @@ namespace Proyecto_final_poo.UI
                     using var cmdUpdate = new MySqlCommand(
                         "UPDATE Productos SET Stock = Stock + @cant WHERE Id = @id;", c, tx);
                     cmdUpdate.Parameters.AddWithValue("@cant", cantidad);
-                    cmdUpdate.Parameters.AddWithValue("@id", id.Value);
+                    cmdUpdate.Parameters.AddWithValue("@id", p.Id);
                     cmdUpdate.ExecuteNonQuery();
 
                     using var cmdMov = new MySqlCommand(
                         "INSERT INTO MovimientosInventario (ProductoId, Tipo, Cantidad) VALUES (@id, 'entrada', @cant);", c, tx);
-                    cmdMov.Parameters.AddWithValue("@id", id.Value);
+                    cmdMov.Parameters.AddWithValue("@id", p.Id);
                     cmdMov.Parameters.AddWithValue("@cant", cantidad);
                     cmdMov.ExecuteNonQuery();
 
@@ -298,13 +321,13 @@ namespace Proyecto_final_poo.UI
         // remueve stock al producto seleccionado con motivo
         private void BtnRemoverStock_Click(object? sender, EventArgs e)
         {
-            var id = ProductoSeleccionadoId();
-            if (id == null)
+            var p = ProductoSeleccionado();
+            if (p == null)
             {
                 MessageBox.Show("selecciona un producto.");
                 return;
             }
-            int stockActual = (int)numStock.Value;
+            int stockActual = p.Stock;
 
             // formulario emergente para cantidad y motivo
             using var f = new Form() { Width = 400, Height = 180, Text = "Remover stock" };
@@ -334,7 +357,7 @@ namespace Proyecto_final_poo.UI
                         "UPDATE Productos SET Stock = Stock - @cant WHERE Id = @id;", c, tx))
                     {
                         cmd.Parameters.AddWithValue("@cant", cantidad);
-                        cmd.Parameters.AddWithValue("@id", id.Value);
+                        cmd.Parameters.AddWithValue("@id", p.Id);
                         cmd.ExecuteNonQuery();
                     }
                     using (var cmd = new MySqlCommand(
@@ -343,7 +366,7 @@ namespace Proyecto_final_poo.UI
                           VALUES 
                             (@prod, 'salida', @cant, @motivo, @fecha);", c, tx))
                     {
-                        cmd.Parameters.AddWithValue("@prod", id.Value);
+                        cmd.Parameters.AddWithValue("@prod", p.Id);
                         cmd.Parameters.AddWithValue("@cant", cantidad);
                         cmd.Parameters.AddWithValue("@motivo", motivo);
                         cmd.Parameters.AddWithValue("@fecha", DateTime.Now);
