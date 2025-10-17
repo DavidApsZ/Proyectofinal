@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\ui\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\ui\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\ui\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\ui\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\domain\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\domain\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\data\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\data\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\ui\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\ui\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\ui\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\ui\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\ui\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\ui\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|c:\\users\\sique\\pictures\\proyecto final\\proyecto-pruebas\\proyectopoofinal-pruebas\\proyecto final poo\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D441289-B258-46D5-9056-20949BE29AF9}|Proyecto final poo\\Proyecto final poo.csproj|solutionrelative:proyecto final poo\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -142,36 +146,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FrmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmUsuarios.cs",
-              "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmUsuarios.cs",
-              "RelativeToolTip": "Proyecto final poo\\UI\\FrmUsuarios.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAgwOIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto final poo\\Program.cs",
+              "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Program.cs",
+              "RelativeToolTip": "Proyecto final poo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T20:35:46.263Z"
+              "WhenOpened": "2025-10-17T00:41:05.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "FrmVenta.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmVenta.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmVenta.cs",
               "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmVenta.cs",
               "RelativeToolTip": "Proyecto final poo\\UI\\FrmVenta.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAiwDoBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwJcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T02:32:10.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Venta.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Venta.cs",
@@ -184,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Producto.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Producto.cs",
@@ -197,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Interfaces.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Interfaces.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Interfaces.cs",
@@ -205,12 +210,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Interfaces.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T14:28:50.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T14:28:50.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Usuario.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Usuario.cs",
@@ -218,12 +222,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T15:01:41.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T15:01:41.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Proveedor.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Proveedor.cs",
@@ -231,12 +234,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Proveedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T15:00:25.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T15:00:25.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Db.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Data\\Db.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Data\\Db.cs",
@@ -248,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Sesion.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Sesion.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Sesion.cs",
@@ -256,12 +258,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Sesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:59:09.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:59:09.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Pago.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Pago.cs",
@@ -269,12 +270,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Pago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:58:50.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:58:50.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Empleado.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Empleado.cs",
@@ -286,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Categoria.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Categoria.cs",
@@ -294,12 +294,11 @@
               "RelativeToolTip": "Proyecto final poo\\Domain\\Categoria.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:58:40.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:58:40.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "FrmInventario.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmInventario.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmInventario.cs",
@@ -307,12 +306,11 @@
               "RelativeToolTip": "Proyecto final poo\\UI\\FrmInventario.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAqwGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T21:43:33.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:43:33.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FrmProductos.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmProductos.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmProductos.cs",
@@ -320,12 +318,36 @@
               "RelativeToolTip": "Proyecto final poo\\UI\\FrmProductos.cs",
               "ViewState": "AgIAAEMBAAAAAAAAAAAswIIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T21:15:59.953Z",
+              "WhenOpened": "2025-10-15T21:15:59.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmCategorias.cs",
+              "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmCategorias.cs",
+              "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmCategorias.cs",
+              "RelativeToolTip": "Proyecto final poo\\UI\\FrmCategorias.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:27:15.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
+              "Title": "FrmUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmUsuarios.cs",
+              "RelativeToolTip": "Proyecto final poo\\UI\\FrmUsuarios.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAgwOIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:35:46.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "FrmReporteVentas.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmReporteVentas.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmReporteVentas.cs",
@@ -338,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Auth.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Data\\Auth.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Data\\Auth.cs",
@@ -350,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "FrmRemoverStock.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmRemoverStock.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmRemoverStock.cs",
@@ -362,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "FrmProveedores.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmProveedores.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmProveedores.cs",
@@ -374,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "FrmMenu.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmMenu.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmMenu.cs",
@@ -386,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "FrmLogin.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmLogin.cs",
@@ -399,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "FrmHistorialCompras.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmHistorialCompras.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmHistorialCompras.cs",
@@ -411,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "FrmEmpleados.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmEmpleados.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmEmpleados.cs",
@@ -423,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "FrmConfiguracion.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmConfiguracion.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmConfiguracion.cs",
@@ -435,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "FrmClientes.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmClientes.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmClientes.cs",
@@ -448,19 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FrmCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmCategorias.cs",
-              "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmCategorias.cs",
-              "ToolTip": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmCategorias.cs",
-              "RelativeToolTip": "Proyecto final poo\\UI\\FrmCategorias.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAqwLsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T15:27:15.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Domain\\Cliente.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\Domain\\Cliente.cs",
@@ -472,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FrmCambiarMiPassword.cs",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmCambiarMiPassword.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmCambiarMiPassword.cs",
@@ -484,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FrmVenta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmVenta.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmVenta.cs",
@@ -495,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FrmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmLogin.cs",
@@ -506,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FrmReporteVentas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmReporteVentas.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmReporteVentas.cs",
@@ -517,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Proyecto final poo.csproj",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj",
               "RelativeDocumentMoniker": "Proyecto final poo\\Proyecto final poo.csproj",
@@ -529,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Proyecto final poo.csproj.user",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\Proyecto final poo.csproj.user",
               "RelativeDocumentMoniker": "Proyecto final poo\\Proyecto final poo.csproj.user",
@@ -541,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "FrmClientes.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sique\\Pictures\\PROYECTO FINAL\\Proyecto-pruebas\\Proyectopoofinal-pruebas\\Proyecto final poo\\UI\\FrmClientes.cs",
               "RelativeDocumentMoniker": "Proyecto final poo\\UI\\FrmClientes.cs",

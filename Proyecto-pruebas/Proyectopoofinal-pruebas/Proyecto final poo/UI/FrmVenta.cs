@@ -140,11 +140,11 @@ namespace Proyecto_final_poo.UI
             cboEmpleado.DisplayMember = "Nombre";
         }
 
-        // carga productos en el combo
+        // carga productos en el combo (solo activos)
         private void CargarProductos()
         {
             using var c = Db.Con(); c.Open();
-            using var da = new MySqlDataAdapter("SELECT Id, Nombre, Precio, Stock FROM Productos ORDER BY Nombre;", c);
+            using var da = new MySqlDataAdapter("SELECT Id, Nombre, Precio, Stock FROM Productos WHERE Activo = 1 ORDER BY Nombre;", c);
             var t = new DataTable(); da.Fill(t);
             cboProducto.DataSource = t;
             cboProducto.ValueMember = "Id";
